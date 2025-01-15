@@ -1,0 +1,106 @@
+/* Genel sıfırlamalar */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    gap: 50px;
+}
+
+.search {
+    
+    padding: 8px;
+    font-size: 16px;
+    width: 200px;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+header i {
+    font-size: 24px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+header i:hover {
+    color: #3D3F45;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+}
+
+header ul li {
+    margin: 0 15px;
+}
+
+header ul li a {
+    color: #3D3F45;
+    font-size: 16px;
+}
+
+.fa-solid {
+color: #9092A0;
+}
+.hero-img {
+    /* width: 2000px; */
+    /* height: 850px; */
+    /* object-fit: cover; */
+}
+.relative {
+    position: relative;
+    width: 400px;
+    height: 100vh;
+  } 
+  
+.absolute {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+  }
+  .container1 {  
+    margin-right: 400px;
+    margin-left: 400px;
+    display: flex;
+    justify-content: space-between  ;
+    align-items: center;
+
+  }
+
+  .container2 {  
+    margin-top: 100px;
+    margin: 100 auto;
+    display: flex;
+    justify-content: space-between  ;
+    align-items: center;
+    gap: 20px;
+  }
+  
+   .box1 {
+
+   }
